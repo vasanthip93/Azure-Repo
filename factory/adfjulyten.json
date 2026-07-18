@@ -1,0 +1,15 @@
+{
+	"name": "adfjulyten",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3f442368-d183-4efe-8694-577965f4778d",
+		"tenantId": "c6d778b9-9ca5-4892-9eb1-c409170d63b0"
+	}
+}
