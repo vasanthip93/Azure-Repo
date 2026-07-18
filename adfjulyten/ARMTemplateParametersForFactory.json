@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfjulyten"
+		},
+		"LS_ADLS_BLOB_connectionString": {
+			"value": ""
+		},
+		"LS_ADLS_TO_BLOB_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_DATA_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_MIGRATION_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"LS_ADLS_TO_BLOB_properties_typeProperties_url": {
+			"value": "https://adlsgen2julydemo.dfs.core.windows.net/"
+		},
+		"LS_CSV_DATA_properties_typeProperties_url": {
+			"value": "https://adlsgen2julydemo.dfs.core.windows.net/"
+		},
+		"LS_SQL_MIGRATION_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_SQL_MIGRATION_properties_typeProperties_database": {
+			"value": "Visionboardmigration"
+		},
+		"LS_SQL_MIGRATION_properties_typeProperties_userName": {
+			"value": "vasanthi"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "Visionboardmigration"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "vasanthi"
+		},
+		"EVENT_TRIGGER_BLOB_ADLS_CSV_properties_typeProperties_scope": {
+			"value": "/subscriptions/7a4801aa-2a10-4e2e-a581-95eb6abf0633/resourceGroups/vasuup/providers/Microsoft.Storage/storageAccounts/blobjulydemo"
+		}
+	}
+}
