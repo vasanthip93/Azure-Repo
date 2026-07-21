@@ -1,0 +1,21 @@
+{
+	"name": "LS_ONPrem_SqlServer_DW",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "localhost\\SQLEXPRESS",
+			"database": "RetailDW_Dev",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "vasanthi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3YmU0MzUwYy0wM2MyLTQ3OTYtODY1Zi01OWRiZjY1YzhhZGMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedintegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
