@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "adfjulyten"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"DS_LKUP_MAX_VALUE_password": {
+			"value": ""
+		},
 		"LS_ADLS_BLOB_connectionString": {
 			"value": ""
 		},
@@ -14,17 +20,53 @@
 		"LS_CSV_DATA_accountKey": {
 			"value": ""
 		},
+		"LS_ONPrem_SqlServer_DW_password": {
+			"value": ""
+		},
+		"LS_Parent_SqlServer_DW_password": {
+			"value": ""
+		},
 		"LS_SQL_MIGRATION_password": {
 			"value": ""
 		},
 		"SqlServer1_password": {
 			"value": ""
 		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsgen2julydemo.dfs.core.windows.net/"
+		},
+		"DS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"DS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"DS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "vasanthi"
+		},
 		"LS_ADLS_TO_BLOB_properties_typeProperties_url": {
 			"value": "https://adlsgen2julydemo.dfs.core.windows.net/"
 		},
 		"LS_CSV_DATA_properties_typeProperties_url": {
 			"value": "https://adlsgen2julydemo.dfs.core.windows.net/"
+		},
+		"LS_ONPrem_SqlServer_DW_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_ONPrem_SqlServer_DW_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_ONPrem_SqlServer_DW_properties_typeProperties_userName": {
+			"value": "vasanthi"
+		},
+		"LS_Parent_SqlServer_DW_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_Parent_SqlServer_DW_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_Parent_SqlServer_DW_properties_typeProperties_userName": {
+			"value": "vasanthi"
 		},
 		"LS_SQL_MIGRATION_properties_typeProperties_server": {
 			"value": "localhost\\SQLEXPRESS"
